@@ -11,10 +11,10 @@ import React from 'react';
 import {
   SafeAreaView,
   ScrollView,
-  Text,
   StatusBar,
 } from 'react-native';
 
+import HomeScreen from './src/screens/Home'
 
 
 const App: () => React$Node = () => {
@@ -23,7 +23,7 @@ const App: () => React$Node = () => {
       <StatusBar barStyle="dark-content" />
       <SafeAreaView>
         <ScrollView>
-          <Text>App</Text>
+          <HomeScreen/>
         </ScrollView>
       </SafeAreaView>
     </>
